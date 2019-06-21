@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+    background-color: #8e44ad;
+    font-family: Ubuntu, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.img-thumbnail {
+    width: 75px;
+}
+
+.hide {
+    display: none;
+}
+
+.list-group {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.list-item-container {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.list-item-container div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.list-item-container div h2 {
+    padding-top: 20px;
+}
+
+.list-item-container .btn {
+    width: 100%;
+    /*margin-top: 30%;*/
+}
+
+@-webkit-keyframes colorSwapper {
+    0% {
+        background-color: #955fad;
+        background-image: -webkit-linear-gradient(#955fad, #da5b45);
+        background-image: linear-gradient(#955fad, #da5b45);
+    }
+    50% {
+        background-color: #da5b45;
+        background-image: -webkit-linear-gradient(#da5b45, #955fad);
+        background-image: linear-gradient(#da5b45, #955fad);
+    }
+    100% {
+        background-color: #955fad;
+        background-image: -webkit-linear-gradient(#955fad, #da5b45);
+        background-image: linear-gradient(#955fad, #da5b45);
+    }
+}
+
+@-moz-keyframes colorSwapper {
+    0% {
+        background-color: #955fad;
+        background-image: -webkit-linear-gradient(#955fad, #da5b45);
+        background-image: linear-gradient(#955fad, #da5b45);
+    }
+    50% {
+        background-color: #da5b45;
+        background-image: -webkit-linear-gradient(#da5b45, #955fad);
+        background-image: linear-gradient(#da5b45, #955fad);
+    }
+    100% {
+        background-color: #955fad;
+        background-image: -webkit-linear-gradient(#955fad, #da5b45);
+        background-image: linear-gradient(#955fad, #da5b45);
+    }
+}
+
+@keyframes colorSwapper {
+    0% {
+        background-color: #955fad;
+        background-image: -webkit-linear-gradient(#955fad, #da5b45);
+        background-image: linear-gradient(#955fad, #da5b45);
+    }
+    50% {
+        background-color: #da5b45;
+        background-image: -webkit-linear-gradient(#da5b45, #955fad);
+        background-image: linear-gradient(#da5b45, #955fad);
+    }
+    100% {
+        background-color: #955fad;
+        background-image: -webkit-linear-gradient(#955fad, #da5b45);
+        background-image: linear-gradient(#955fad, #da5b45);
+    }
+}
+
+@-webkit-keyframes solidColor {
+    0% {
+        background-color: #955fad;
+    }
+    50% {
+        background-color: #da5b45;
+    }
+    100% {
+        background-color: #955fad;
+    }
+}
+
+@-moz-keyframes solidColor {
+    0% {
+        background-color: #955fad;
+    }
+    50% {
+        background-color: #da5b45;
+    }
+    100% {
+        background-color: #955fad;
+    }
+}
+
+@keyframes solidColor {
+    0% {
+        background-color: #955fad;
+    }
+    50% {
+        background-color: #da5b45;
+    }
+    100% {
+        background-color: #955fad;
+    }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #222;
+    color: #fff;
+}
+
+.skewed-bg {
+    background: #00b285;
+    padding: 200px 0;
+    -webkit-transform: skew(0deg, -10deg);
+    -moz-transform: skew(0deg, -10deg);
+    -ms-transform: skew(0deg, -10deg);
+    -o-transform: skew(0deg, -10deg);
+    transform: skew(0deg, -10deg);
+    margin-top: -200px;
+}
+
+.skewed-bg .content {
+    -webkit-transform: skew(0deg, 10deg);
+    -moz-transform: skew(0deg, 10deg);
+    -ms-transform: skew(0deg, 10deg);
+    -o-transform: skew(0deg, 10deg);
+    transform: skew(0deg, 10deg);
+    text-align: center;
+}
+
+.skewed-bg .content .title {
+    padding-top: 100px;
+    font-weight: normal;
+}
+
+.skewed-bg .content .text {
+    width: 60%;
+    margin: 25px auto;
+    color: #ccfff2;
+}
+
+.footer {
+    padding-top: 300px;
+}
+
+.footer .credits {
+    text-align: center;
+    color: #666;
+}
+
+.footer .credits .link {
+    color: #00b285;
+    text-decoration: none;
+}
